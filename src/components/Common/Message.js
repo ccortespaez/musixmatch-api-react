@@ -1,6 +1,9 @@
-import React from 'react'
+import React from 'react';
 
-const Message = () => (
-    <h1>Soy el Message</h1>
-)
+const Message = ({ text }) => (
+    <h2 className="message">{text}</h2>
+);
+
+Message.displayName = 'Message';
+
 export default Message;

@@ -1,6 +1,10 @@
-import React from 'react'
+import React from "react";
+import CircularProgress from "@material-ui/core/CircularProgress";
 
 const ProgressBar = () => (
-    <h1>Soy el ProgressBar</h1>
-)
+  <div className="progressBar">
+    <CircularProgress size={100} />
+  </div>
+);
+
 export default ProgressBar;
